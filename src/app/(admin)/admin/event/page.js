@@ -6,7 +6,7 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-  } from "@/src/app/components/ui/table"
+  } from "@/components/ui/table"
 import Image from "next/image"
 
 
