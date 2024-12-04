@@ -95,8 +95,8 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
+  * .border-border {
+    border-color: var(--border); /* Update this variable as needed */
   }
   body {
     @apply bg-background text-foreground;
