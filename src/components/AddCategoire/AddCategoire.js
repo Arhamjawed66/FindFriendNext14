@@ -1,7 +1,7 @@
+
 import * as React from "react"
 
 import { cn } from "../../lib/utils"
-// import { useMediaQuery } from "@/hooks/use-media-query"
 import { Button } from "../ui/button"
 import {
   Dialog,
@@ -10,7 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../../components/ui/dialog"
+} from "../ui/dialog"
 import {
   Drawer,
   DrawerClose,
@@ -24,20 +24,19 @@ import {
 import { Input } from "../ui/input"
 import { Label } from "../ui/label"
 
-
-export function SubAddCategory() {
+export function AddCategory () {
   const [open, setOpen] = React.useState(false)
-  const isDesktop =true
+  const isDesktop = true
 
   if (isDesktop) {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-          <Button variant="outline">SubAddCategory</Button>
+          <Button variant="outline">Edit Profile</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
-            <DialogTitle>SubAddCategory</DialogTitle>
+            <DialogTitle>Edit profile</DialogTitle>
             <DialogDescription>
               Make changes to your profile here. Click save when youre done.
             </DialogDescription>
@@ -57,7 +56,7 @@ export function SubAddCategory() {
         <DrawerHeader className="text-left">
           <DrawerTitle>Edit profile</DrawerTitle>
           <DrawerDescription>
-            Make changes to your profile here. Click save when you're done.
+            Make changes to your profile here Click save when youre done
           </DrawerDescription>
         </DrawerHeader>
         <ProfileForm className="px-4" />
@@ -85,5 +84,7 @@ function ProfileForm({ className }) {
       <Button type="submit">Save changes</Button>
     </form>
   )
-  
 }
+  
+  
+

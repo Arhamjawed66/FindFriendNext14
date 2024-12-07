@@ -1,4 +1,4 @@
-import AnalayticsChart from "@/components/barchart/Barchart";
+import AnalayticsChart from "@/src/components/barchart/Barchart";
 
 
 

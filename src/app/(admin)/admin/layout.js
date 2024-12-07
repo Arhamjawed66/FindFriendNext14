@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/src/components/ui/tabs";
 import Link from 'next/link';
 
 const Layout = ({ children }) => {

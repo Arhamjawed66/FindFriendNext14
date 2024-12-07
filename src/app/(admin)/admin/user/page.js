@@ -8,7 +8,7 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-  } from "@/components/ui/table"
+  } from "@/src/components/ui/table"
 import Image from "next/image"
   
   const user = [

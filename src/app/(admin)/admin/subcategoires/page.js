@@ -7,10 +7,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/src/components/ui/table"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { SubAddCategory } from "@/components/AddSubCategoire/AddSubCategoire"
+import { Button } from "@/src/components/ui/button"
+import { SubAddCategory } from "@/src/components/AddSubCategoire/AddSubCategoire"
 
 
 
